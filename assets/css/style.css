@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    height: 122px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.navbar {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-sign {
+    display: flex;
+}
+
+.header-menu {
+    display: flex;
+}
+
+.header-menu--name {
+    display: flex;
+    padding-right: 42px;
+    text-decoration: none;
+    color: #232323;
+}
+
+.header-sign {
+    margin-top: 20px;
+}
+
+.header-box_sign {
+    height: 42px;
+    width: 84px;
+    background-color: #232323;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-box__sign-up {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Body */
+.content-text {
+    margin-left: 134px;
+}
+.hungry {
+    color: #ff4415;
+    font-family: 'Seaweed Script', cursive;
+    font-size: 50px;
+}
